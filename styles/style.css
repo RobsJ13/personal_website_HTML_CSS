@@ -218,6 +218,14 @@ header {
     font-size: 200px;
 
 }
+/* Contact */
+
+.contact h1{
+    text-shadow: 1px 1px black;
+    text-decoration:underline;
+    text-decoration-color: brown;
+    align-items: center;
+}
 
 footer {
     background-color:black;
