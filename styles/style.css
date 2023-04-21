@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header {
+    /* border:2px black solid; */
+    padding-left: 30px;
+}
+
+#logoname{
+    margin-left:40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+
+.navigation{    
+    float: right;
+    margin-right: 10%;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-size: x-large;
+    padding:20px;
+    margin-top: 12px;
+}
+
+.navigation img{
+    margin-top: 12px;
+} 
+
+.navigation a:hover {
+    border-bottom: rgb(234, 132, 14) 3px solid;
+    color: black;
+}
+
+ .container{
+    height:41.1em;
+    /* border:2px red solid; */
+    background-color: yellow;
+} 
+
+ .abt_me_text{
+    /* border:2px black solid; */
+    float: left; 
+    background-color: rgba(255, 255, 0, 0.519);
+    margin-left:60px;
+    margin-top: 16%;
+    text-align: center;
+}  
+.abt_me_text span{
+    color:rgb(252, 42, 9);
+    font-size: larger;
+}
+ .abt_me_image{
+    float:right; 
+    margin-right: 10em;    
+    margin-top: 7%; 
+    width: 400px; 
+    height: 400px;
+    border: 10px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+}   
+
+.abt_me_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }  
+.abtme_footer{
+    margin-top: 500px;
+    margin-left: 10%;
+    align-items: center;
+}
+.abtme_footer th{
+    width: 250px;
+}
+.abtme_footer td{
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Eduatation */
+.abt_me{
+    border:2px black solid;
+    padding:50px;
+}
+
+
+
+
+ footer {
+    background-color: white;
+    color: black;
+    height: 3.5em;
+    margin-top: 58%;
+    text-align:center;
+}
+
+footer li{
+    display:inline-block;
+    list-style: none;
+    padding:50px; 
+} 
+.footer1{
+    display:inline-block;
+}
+.footer2{
+    display:inline-block;
+    margin-right:50px;
+}
