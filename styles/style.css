@@ -262,12 +262,20 @@ input[type=text],input[type=email],input[type=number], textarea {
     color:black;
 }
 
+.top_pointer{
+    display: inline-block;
+    margin-left: 90%;
+    /* float:right;  */
+    align-content: center;
+    margin-right: 50px;
+}
+
 footer {
     background-color:black;
     border-radius: 4px;
     color: white;
     height: 7.5em;
-    margin-top: 1%; 
+    margin-top: 4%; 
     text-align:center;
 }
 
