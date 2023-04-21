@@ -205,23 +205,25 @@ header {
     padding:20px;
 }
 .circle{
-    border:5px black solid; 
+    /* border:5px black solid;  */
     float:right;
     /* padding-top: 50px; */
-    margin-right: 100px;
-    width: 300px;
-    height: 300px;
+    
+    margin-right: 180px;
+    margin-top: 10%;
+    width: 180px;
+    height: 150px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     text-align: center;
     background: #e7e96f;  
 }
 
 .circle span{
-    line-height: 260px;
+    line-height: 150px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 200px;
+    font-size: 150px;
 
 }
 /* Contact */
