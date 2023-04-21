@@ -3,9 +3,13 @@
     padding:0px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header {
     /* border:2px black solid; */
-    padding-left: 30px;
+    padding-left:30px;
 }
 
 #logoname{
@@ -90,15 +94,135 @@ header {
 .abt_me{
     border:2px black solid;
     padding:50px;
+    /* background-color: beige; */
+    background-image:url(/images/graduation.jpg);
+    background-repeat:round;
+    background-size: contain; 
+    height: 600px;
+    color:rgb(224, 211, 16);
+}
+
+.abt_me h1{
+    text-shadow: 1px 1px black;
+    text-decoration:underline;
+    text-decoration-color: brown;
+}
+.abt_me .box1{
+    border: 3px black solid;
+    border-radius: 5%;
+    width:50%;
+    box-shadow: 5px 5px rgb(37, 40, 40);
+    text-shadow: 2px 2px rgb(107, 21, 21);
+}
+
+.abt_me .box2{
+    border: 3px black solid;
+    border-radius: 5%;
+    width:50%;
+    box-shadow: 5px 5px rgb(37, 40, 40);
+    text-shadow: 2px 2px rgb(107, 21, 21);
+}
+
+.abt_me .box3{
+    border: 3px black solid;
+    border-radius: 5%;
+    width:50%;
+    box-shadow: 5px 5px rgb(37, 40, 40);
+    text-shadow: 2px 2px rgb(107, 21, 21);
+}
+.abt_me h1{
+    text-align: center;
+    font-size:xx-large;
+}
+
+.abt_me h2{
+    padding-left:50px;
+}
+
+.abt_me li{
+    padding:10px;
+    padding-left: 25px;
+    list-style:none; 
 }
 
 
 
+/* Experience */
 
- footer {
-    background-color: white;
+.exp_me{
+    border:2px black solid;
+    padding:50px;
+    background-color: rgb(182, 234, 222); 
+    /* float:right; */
+    /* background-image:url(/images/graduation.jpg);
+    background-repeat:round;
+    background-size: contain;  */
+    height: 600px;
+    color:brown;
+}
+
+.exp_me h1{
+    text-shadow: 1px 1px black;
+    text-decoration:underline;
+    text-decoration-color: brown;
+}
+.exp_me .box1{
+    border: 3px black solid;
+    border-radius: 5%;
+    width:50%;
+    box-shadow: 5px 5px rgb(37, 40, 40);
+    text-shadow: 2px 2px rgb(239, 238, 238);
+}
+
+.exp_me .box2{
+    border: 3px black solid;
+    border-radius: 5%;
+    width:50%;
+    box-shadow: 5px 5px rgb(37, 40, 40);
+    text-shadow: 2px 2px rgb(239, 238, 238);
+}
+
+.exp_me .box3{
+    border: 3px black solid;
+    border-radius: 5%;
+    width:50%;
+    box-shadow: 5px 5px rgb(37, 40, 40);
+    text-shadow: 2px 2px rgb(239, 238, 238);
+}
+.exp_me h1{
+    text-align: center;
+    font-size:xx-large;
+}
+
+.exp_me h2{
+    padding-left:50px;
+}
+
+.circle{
+    border:5px black solid; 
+    float:right;
+    /* padding-top: 50px; */
+    margin-right: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    font-size: 20px;
     color: black;
-    height: 3.5em;
+    text-align: center;
+    background: #e7e96f;  
+}
+
+.circle span{
+    line-height: 260px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200px;
+
+}
+
+footer {
+    background-color:black;
+    color: white;
+    height: 7.5em;
     margin-top: 58%;
     text-align:center;
 }
