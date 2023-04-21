@@ -152,11 +152,11 @@ header {
 .exp_me{
     border:2px black solid;
     padding:50px;
-        /* background-color: rgb(182, 234, 222);  */
-    /* float:right; */
-    background-image:url(/images/graduation.jpg);
+    background-color: rgb(182, 234, 222);  
+    /* float:right;  */
+    /* background-image:url(/images/graduation.jpg);
     background-repeat:round;
-    background-size: contain; 
+    background-size: contain;  */
     height: 600px;
     color:brown;
 }
