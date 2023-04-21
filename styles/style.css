@@ -94,9 +94,10 @@ header {
 .abt_me{
     border:2px rgb(248, 245, 245) solid;
     padding:50px;
-    /* background-image:url(/images/graduation.jpg); */
+    background-color: #29ad7d;
+    /* background-image:url(/images/graduation.jpg); 
     background-repeat:round;
-    background-size: contain; 
+    background-size: contain; */
     height: 600px;
     color:rgb(224, 211, 16);
 }
