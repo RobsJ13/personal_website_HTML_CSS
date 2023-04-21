@@ -201,6 +201,9 @@ header {
     padding-left:50px;
 }
 
+.exp_me p{
+    padding:20px;
+}
 .circle{
     border:5px black solid; 
     float:right;
